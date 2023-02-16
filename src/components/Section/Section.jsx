@@ -10,7 +10,7 @@ const Section = ({ title, children }) => {
   );
 };
 
-Section.protoTypes = {
+Section.propTypes = {
   title: PropTypes.string,
   children: PropTypes.object,
 };
