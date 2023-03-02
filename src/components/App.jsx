@@ -36,8 +36,6 @@ class App extends Component {
     const { good, neutral, bad } = this.state;
     const options = Object.keys(this.state);
 
-    console.log();
-
     return (
       <>
         <div>
